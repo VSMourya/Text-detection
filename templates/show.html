@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<h2>Result : </h2>
+
+<div>
+
+	<body>
+		<div class="blog-insert">
+			<img src="{{ url_for('static', filename = output_file_path) }}" class="img-fluid" alt="User Image">
+			</br>
+			</br>
+			<p align="center"><a href=home><button class="btn btn-primary"> Try another image ! </button></a></p>
+
+		</div>
+	</body>
+</div>
+
+{% endblock %}
